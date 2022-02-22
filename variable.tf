@@ -19,3 +19,6 @@ variable "memory" {
 variable "env_variables" {
   default = null
 }
+variable "timeout" {
+  default = 60
+}
